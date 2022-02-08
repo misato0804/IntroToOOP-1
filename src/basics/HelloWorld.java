@@ -17,6 +17,13 @@ public class HelloWorld {
         // %f : float
         System.out.printf("%s class starts at %d:%02d am\n", "Java", 9, 0);
 
+        int x = 10;
+        x++;
+        ++x;
+        int y = x++; // "assign and increment"
+        int z = ++x; // "increment and assign"
+        System.out.println(y); // 10
+        System.out.println(z); // 12
     }
 }
 // python - interpreted programming language, dynamic typing
