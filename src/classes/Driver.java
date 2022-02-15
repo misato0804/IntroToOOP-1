@@ -1,5 +1,7 @@
 package classes;
 
+import encapsulation.Book;
+
 public class Driver {
     public static void main(String[] args) {
         // create an instance(object) of Pokemon
