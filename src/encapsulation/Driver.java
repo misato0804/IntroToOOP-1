@@ -13,6 +13,5 @@ public class Driver {
         } else {
             System.out.println("It is available.");
         }
-
     }
 }
