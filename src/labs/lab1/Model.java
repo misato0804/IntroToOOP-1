@@ -177,8 +177,6 @@ public class Model {
         System.out.println("Smokes: " + smokeMessage);
         System.out.println("Hourly rate: $" + calculatePayDollarsPerHour());
     }
-
-
 }
 
 
