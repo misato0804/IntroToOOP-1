@@ -2,7 +2,11 @@ package polymorphism;
 
 import java.util.Date;
 
-public class Employee {
+// Abstract class
+// - can not be instantiated.
+// - can have abstract methods.
+// - subclasses MUST implement all abstract methods.
+public abstract class Employee {
     // instance variables
     private String employeeId;
     private long salary;
@@ -15,9 +19,7 @@ public class Employee {
         this.startDate = startDate;
     }
 
-    public void work() {
-        System.out.println("EmployeeID: " + employeeId + " is working!");
-    }
+    public abstract void work();
 
     public Date getStartDate() {
         return startDate;
